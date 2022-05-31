@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 :root {
     --color-background: rgb(226, 226, 226);
     --color-primary: rgb(255, 255, 255);
@@ -42,6 +45,8 @@ body{
     border: solid 1px var(--color-primary);
     padding: 10px;
     margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -53,7 +58,7 @@ body{
 	padding: 5px;
 }
 
-.comando{
+.options{
 	padding: 5px 10px;
 	background: rgb(255, 255, 255);;
 	border: solid 1px rgb(255, 255, 255);;
@@ -71,7 +76,7 @@ body{
 }
 
 #btnColor > span{
-	color: var(--color-text);
+	color: red;
 }
 
 #btnBackColor > span{
