@@ -1,11 +1,20 @@
-    *{margin: 0;
+:root {
+    --color-background: rgb(226, 226, 226);
+    --color-primary: rgb(255, 255, 255);
+    --color-shadow: rgb(0, 0, 0);
+    --color-active: #555; 
+    --color-text: #000000;
+}
+
+*{
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+}
 
 
 body{
-    background: rgb(6, 66, 14);
+    background: var(--color-background);
 }
 
 
@@ -19,54 +28,53 @@ body{
 #editor{
     display: flex;
     flex-direction: column;
-    background: darkgrey;
+    background: var(--color-primary);
     padding: 5px;
     border-radius: 10px;
-    box-shadow:rgb(0, 0, 0) 20px 20px 50px;
+    box-shadow:var(--color-shadow) 20px 20px 50px;
 }
 
 #BoxTexto{
-    background: rgb(236, 237, 240);
+    background: var(--color-primary);
     width: 100%;
     height: 50vh;
     outline: none;
-    border: solid 1px cornsilk;
+    border: solid 1px var(--color-primary);
     padding: 10px;
     margin-bottom: 10px;
 }
 
 
 #menu{
-			background: #ddd;
-			width: 100%;
-			border: solid 1px #ccc;
-			border-radius: 5px;
-			padding: 5px;
-		}
+	background: var(--color-primary);;
+	width: 100%;
+	border: solid 1px rgb(255, 255, 255);;
+	border-radius: 5px;
+	padding: 5px;
+}
 
-		.comando{
-			padding: 5px 10px;
-			background: white;
-			border: solid 1px #ccc;
+.comando{
+	padding: 5px 10px;
+	background: rgb(255, 255, 255);;
+	border: solid 1px rgb(255, 255, 255);;
+    outline: none;
+	cursor: pointer;
+}
 
-			outline: none;
-			cursor: pointer;
-		}
+.comando:active{
+	border: solid 1px var(--color-active);
+	background: rgb(255, 255, 255);;
+}
 
-		.comando:active{
-			border: solid 1px #555;
-			background: #eee;
-		}
+#btnUnderline > span{
+	text-decoration: underline;
+}
 
-		#btnUnderline > span{
-			text-decoration: underline;
-		}
+#btnColor > span{
+	color: var(--color-text);
+}
 
-		#btnColor > span{
-			color: #000000;
-		}
-
-		#btnBackColor > span{
-			background: gold;
-			padding: 3.5px 5px;
-		}
+#btnBackColor > span{
+	background: rgb(255, 145, 0);
+	padding: 3.5px 5px;
+}
