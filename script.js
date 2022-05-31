@@ -1,8 +1,9 @@
- var btnBold = document.getElementById('btnBold'),
+ 
+var btnBold = document.getElementById('btnBold'),
     btnItalic = document.getElementById('btnItalic'),
     btnUnderline = document.getElementById('btnUnderline'),
     btnColor = document.getElementById('btnColor'),
-    btnBackColor = document.getElementById('btnBlackColor');
+    btnBackColor = document.getElementById('btnBackColor');
 
     btnBold.onclick = function(event){
         document.execCommand(btnBold.getAttribute("data-type"),false,null);
@@ -17,9 +18,9 @@
 	}	
 
 	btnColor.onclick = function(event){
-		document.execCommand(btnColor.getAttribute("data-type"),false,"#35037F");
+		document.execCommand(btnColor.getAttribute("data-type"),false,"red");
 	}	
 
 	btnBackColor.onclick = function(event){
-		document.execCommand(btnBackColor.getAttribute("data-type"),false,"gold");
+		document.execCommand(btnBackColor.getAttribute("data-type"),false,"rgb(255, 251, 0)");
     }

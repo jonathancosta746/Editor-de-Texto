@@ -1,7 +1,7 @@
 :root {
     --color-background: rgb(226, 226, 226);
     --color-primary: rgb(255, 255, 255);
-    --color-shadow: rgb(0, 0, 0);
+    --color-shadow: rgb(204, 204, 204);
     --color-active: #555; 
     --color-text: #000000;
 }
@@ -22,7 +22,7 @@ body{
     width: 60%;
     position: relative;
     left: 20%;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #editor{
@@ -30,8 +30,8 @@ body{
     flex-direction: column;
     background: var(--color-primary);
     padding: 5px;
-    border-radius: 10px;
-    box-shadow:var(--color-shadow) 20px 20px 50px;
+    border-radius: 2px;
+    box-shadow:var(--color-shadow) 10px 10px 10px;
 }
 
 #BoxTexto{
@@ -75,6 +75,6 @@ body{
 }
 
 #btnBackColor > span{
-	background: rgb(255, 145, 0);
+	background: rgb(255, 251, 0);
 	padding: 3.5px 5px;
 }
