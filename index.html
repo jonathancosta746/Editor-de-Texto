@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de texto</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+
+</head>
+<body>
+
+    <div id="con-editor">
+        <div id="editor">
+        
+            <div id=menu>
+                <button data-type="bold" class="comando" id="btnBold"><b>N</b></button>
+                <button data-type="italic" class="comando" id="btnItalic"><b>I</b></button>
+                <button data-type="underline" class="comando" id="btnUnderline"><b>_</b></button>
+                <button data-type="foreColor" class="comando" id="btnColor"><b>A</b></button>
+                <button data-type="backColor" class="comando" id="btnBackColor"><span>A</span></button>
+            </div>
+
+            
+
+            <div id="BoxTexto" contenteditable></div> 
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js" defer></script>  
+</body>
+</html>
