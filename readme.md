@@ -1,14 +1,13 @@
 # Editor de Texto
 
-🇧🇷
 ## Como visualizar o projeto?
-Disponível do link 
-
-## Como funciona o projeto?
-WebGame simples utilizando JavaScript para fazer a manipulação do HTML para criar interatividade.
+Disponível do link https://jonathancosta746.github.io/SimpleTextEditor/
 
 ## Tecnologias Usadas
 HTML, CSS, e JavaScript.
+
+## Como funciona o projeto?
+Editor de texto simples utilizando JavaScript
 
 
 ##
