@@ -1,7 +1,7 @@
 # Editor de Texto
 
 ## Como visualizar o projeto?
-Disponível do link https://jonathancosta746.github.io/SimpleTextEditor/
+Disponível do link https://jonathancosta746.github.io/Editor-de-Texto/
 
 ## Tecnologias Usadas
 HTML, CSS, e JavaScript.
